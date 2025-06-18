@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Aula 08 </title>
+    </head>
+    <body>
+        <h1> Cadastro Pessoal </h1>
+
+        <!-- Aqui é a área onde fazemos os formulários, por isso devemos usar a tag "form" -->
+        <form action="recebe.html" method="post">
+
+            <!-- Aqui usamos a tag "input" mas criarmos campos para serem preenchidos -->
+            <label for="nome"> Nome Completo: </label>
+            <input type="text" id="nome" name="nome" maxlength="50">
+            <br><br>
+            <label for="email"> E-Mail: </label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <!-- Aqui usamos a variável "checkbox" no type para criar caixinhas de marcação onde o usuário pode selecionar varias opções -->
+            <label> Linguagens Favoritas: </label>
+            <br><br>
+            <input type="checkbox" id="preferencias" name="preferencias" value="HTML"> <label> HTML </label>
+            <br><br>
+            <input type="checkbox" id="preferencias" name="preferencias" value="CSS"> <label> CSS </label>
+            <br><br>
+            <input type="checkbox" id="preferencias" name="preferencias" value="JavaScript"> <label> JavaScript </label>
+            <br><br>
+            <input type="checkbox" id="preferencias" name="preferencias" value="Python"> <label> Python </label>
+            <br><br>
+
+            <!-- Aqui usamos a variável "radio" no type para criar locais de marcação onde o suário pode selecionar apenas uma das opções -->
+            <label> Turno Preferido: </label>
+            <br><br>
+            <input type="radio" id="turno" name="turno" value="Manhã"> <label> Manhã </label>
+            <br><br>
+            <input type="radio" id="turno" name="turno" value="Tarde"> <label> Tarde </label>
+            <br><br>
+            <input type="radio" id="turno" name="turno" value="Noite"> <label> Noite </label>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

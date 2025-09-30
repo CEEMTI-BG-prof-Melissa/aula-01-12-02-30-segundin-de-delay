@@ -15,6 +15,7 @@
         echo "<br> O valor de $n2 arredondado pra cima é " .ceil($n2);
         echo "<br> O valor de $n2 arredondado pra baixo é " .floor($n2);
         echo "<br> A parte inteira de $n2 é " .intval($n2);
+        echo "<br> Um pirulito custa R$" .number_format($n1, 2);
         ?>
     </body>
 </html>

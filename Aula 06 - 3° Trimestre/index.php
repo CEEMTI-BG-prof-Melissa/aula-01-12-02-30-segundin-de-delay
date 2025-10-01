@@ -23,8 +23,25 @@
             echo "Agora B é igual a $b.";
             echo "<br><br>";
 
-            $b-=5;
+            $b-=5;  
             echo "Agora B é igual a $b.";
+
+            echo "<hr>";
+
+            $b*=2;
+            echo "Multiplicando o valor de B por 2 ficar igual a $b.";
+            echo "<br><br>";
+
+            $b/=10;
+            echo "Dividindo o valor de B por 2 fica igual a $b.";
+            echo "<br><br>";
+
+            $b%=3;
+            echo "O resto da divisão do valor de B divido por 3 é igual a $b.";
+            echo "<br><br>";
+
+            $b.=10;
+            echo "Concatenando o valor de B com o número 10 fica igual a $b.";
         ?>
 
     </body>
